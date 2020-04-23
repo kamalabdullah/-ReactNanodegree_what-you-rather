@@ -1,0 +1,127 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  /* height: 40vmin; */
+  pointer-events: none;
+}
+.nav-margin{
+  margin-bottom: 25px;
+}
+.logedIn-img {
+  border-radius: 50%;
+  margin-right: 15px
+}
+.projectContainer {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.question-info {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.card-poll-results {
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: #ffffff;
+  border: 1px solid grey;
+  color: grey;
+  text-align: center;
+}
+
+.chosen-answer {
+  background-color: #9ef1fe;
+  border: 2px solid #17a2b8;
+  color: #34bfa3 !important;
+  font-weight: bold;
+}
+
+.results-header {
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: black !important;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.progress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  font-size: .75rem;
+  background-color: #e9ecef;
+  border-radius: .25rem;
+  margin-top: 1rem;
+  margin-left: 1.8rem;
+  margin-right: 1.8rem;
+  margin-bottom: 0.5rem;
+  height: 0.5rem;
+}
+
+.progress-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #5867dd;
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+}
+
+.m--bg-success {
+  background-color: #34bfa3 !important;
+}
+
+.progress .progress-bar {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.progress.m-progress--sm .progress-bar {
+  border-radius: 3px;
+}
+.btn{
+  margin-top: 10px;
+  width: 165px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color:whitesmoke;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
